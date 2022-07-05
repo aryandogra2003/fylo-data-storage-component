@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('images/bg-desktop.png');
+    background-size: 1550px 370px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color:  hsl(229, 57%, 11%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    padding: 10px;
+}
+.fylo{
+    height: 130px;
+    background-color: hsl(228, 56%, 26%) ;
+    border-radius: 10px 100px 10px 10px;
+    padding: 15px;
+    padding-right: 130px;
+    padding-bottom: 30px;
+}
+#logo{
+    padding: 17px;
+    padding-bottom: 21px;
+}
+.logo{
+    padding-left: 15px;
+    word-spacing: 11px;
+}
+.logo img{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: hsl(229, 57%, 11%);
+}
+.content{
+   line-height: 10px;
+    background-color: hsl(228, 56%, 26%);
+    color: white;
+    display: block;
+    margin-left: 30px;
+    width: 500px;
+    height: 138px;
+    position: relative;
+    top: 17px;
+    border-radius: 10px;
+}
+.progress{
+    width: 425px;
+    height: 10px;
+    background-color:  hsl(229, 57%, 11%) ;
+    border: 1px solid black;
+    border-radius:10px ;
+    position: relative;
+    right: -38px;
+}
+.progress_fill{
+    width:81.5%;
+    height: 100%;
+    background-color:hsl(6, 100%, 80%) ;
+    border-radius:10px ;
+}
+.circle{
+    width:11px;
+    height: 100%;
+    float: right;
+    border-radius: 100%;
+    background-color: white;
+}
+.thgb{
+    float: right;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(243, 100%, 93%);
+}
+.zerogb{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(243, 100%, 93%);
+}
+.msg{
+    margin: 38px 38px 18px 38px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.box {
+    line-height: 10px;
+    display: inline-block;
+    width: 93px;
+    height: 14px;
+    top: 229px;
+    right: 329px;
+    border-radius: 10px 10px 0px 10px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    padding: 20px;
+    position: absolute;
+    margin: 40px;
+    z-index: 1;
+}
+.box.arrow-bottom:after {
+    content: " ";
+    position: absolute;
+    right: 0px;
+    bottom: -15px;
+    border-top: 15px solid white;
+    border-right: 0px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: none;
+}
+.msg1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.msg2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
